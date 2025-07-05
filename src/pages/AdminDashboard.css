@@ -1,0 +1,219 @@
+/* 📦 AdminDashboard.css */
+
+.admin-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0f2fe, #ede9fe);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.admin-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+
+.admin-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 1rem;
+}
+
+.token-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.token-inputs input {
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.add-btn {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-btn:hover {
+  background: #059669;
+}
+
+.admin-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: #f9fafb;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.filters-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.filters-left select,
+.filters-left input {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.filters-right {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.queue-row {
+  display: flex;
+  flex-direction: column;
+  background: #fefefe;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.user-info h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.user-info p {
+  font-size: 0.9rem;
+  color: #374151;
+  margin-top: 0.25rem;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.admin-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.admin-actions input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+.edit-btn,
+.complete-btn,
+.remove-btn {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background-color: #facc15;
+  color: #1f2937;
+}
+
+.edit-btn:hover {
+  transform: scale(1.05);
+  background-color: #eab308;
+}
+
+.complete-btn {
+  background-color: #10b981;
+  color: white;
+}
+
+.complete-btn:hover {
+  transform: scale(1.05);
+  background-color: #059669;
+}
+
+.remove-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.remove-btn:hover {
+  transform: scale(1.05);
+  background-color: #dc2626;
+}
+
+.no-data {
+  font-size: 1rem;
+  color: #6b7280;
+  padding: 1rem 0;
+  text-align: center;
+}
+.wait-time {
+  margin-top: 4px;
+  color: #059669;
+  font-weight: 500;
+}
