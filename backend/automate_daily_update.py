@@ -7,7 +7,7 @@ import os
 # Load Firebase credentials
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://<your-project-id>.firebaseio.com"  # 🔁 Replace with your URL
+    "databaseURL": "https://smartqueue-a01c6-default-rtdb.firebaseio.com"  # 🔁 Replace with your URL
 })
 
 # Path to CSV
