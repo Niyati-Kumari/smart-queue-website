@@ -4,7 +4,7 @@ import { ref, onValue } from 'firebase/database';
 import { onAuthStateChanged } from 'firebase/auth';
 import './PredictedWaitTime.css';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://smart-queue-website.onrender.com';
 
 const PredictedWaitTime = () => {
   const [waitTime, setWaitTime] = useState(null);

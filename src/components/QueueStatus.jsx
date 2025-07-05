@@ -3,7 +3,7 @@ import { db } from '../firebase';
 import { ref, onValue } from 'firebase/database';
 import './QueueStatus.css';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://smart-queue-website.onrender.com';
 
 const QueueStatus = () => {
   const [queue, setQueue] = useState([]);
